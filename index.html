@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Project</title>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="h-screen bg-linear-to-tr from-orange-300 to-white relative">
+    <div>
+        <header class="sticky top-0 z-50">
+            <nav class="bg-amber-500 justify-around flex p-4.5">
+                <div class="logo text-3xl">
+                    <i class="fa-solid fa-chess-queen"></i>
+                    <span>Project</span>
+                </div>
+                <div class="links">
+                    <a href="#" class="p-3.5">Product</a>
+                    <a href="#" class="p-3.5">Solutions</a>
+                    <a href="#" class="p-3.5">Resources</a>
+                    <a href="#" class="p-3.5">Pricing</a>
+                    <a href="#" class="p-3.5">Login</a>
+                    <button class="p-3 bg-black text-white rounded-2xl">Get AI Free</button>
+                </div>
+            </nav>
+        </header>
+        <div class=" relative">
+            <section class="hero text-center">
+                <h2 class="text-4xl font-bold p-2">Write, Plan, Share</h2>
+                <h2 class="text-4xl font-bold p-2">With AI at your Side</h2>
+                <p>It is the connected workspace where better, faster work happens. Now with AI</p>
+                <div class="relative">
+                    <button class="btn1 bg-black text-white p-3.5 rounded absolute top-0 left-130 mt-3 shadow-xl/20">Get AI Free<i class="fa-solid fa-right-long"></i></button>
+                    <button class="btn2 bg-blue-500 text-white p-3.5 rounded absolute top-0 right-130 mt-3 shadow-xl/20">Request a Demo</button>
+                </div>
+            </section>
+
+            <section class="main relative">
+                    <div class=" absolute top-50 left-20 tasks bg-indigo-300 rounded-2xl p-2 w-20 text-center shadow-xl/30">
+                        <i class="fa-solid fa-clipboard-list"></i>
+                        <h5>Tasks</h5>
+                        <p>15 Tasks pending</p>
+                    </div>
+                    <div class="picture absolute top-30 left-100 ">
+                        <img src="./images/google-deepmind-LaKwLAmcnBc-unsplash.jpg" alt="AI" class="h-60 w-100 shadow-xl/30">
+                    </div>
+                    <div class="projects absolute top-20 right-80 bg-indigo-300 rounded-2xl p-2 w-30 shadow-xl/30">
+                        <i class="fa-solid fa-check-double"></i>
+                        <h5 class="inline text-">Projects</h5>
+                        <p>On Track</p>
+                    </div>
+                    <div class="teams absolute top-70 right-80 bg-indigo-300 rounded-2xl p-2 w-fit flex shadow-xl/30">
+                        <img src="./images/cust1.jpg" alt="cust1"
+                            class="size-10 rounded">
+                        <img src="./images/cust2.jpg" alt="cust2"
+                            class="size-10 rounded">
+                        <img src="./images/cust3.jpg" alt="cust3"
+                            class=" size-10 rounded">
+                        <span> +5 Online</span>
+                    </div>
+                    
+            </section>
+            <div class="chats fixed bottom-6 right-0 text-3xl">
+                <i class="fa-solid fa-comment-dots"></i>
+            </div>
+            
+    </div>
+    </div>
+</body>
+
+</html>
